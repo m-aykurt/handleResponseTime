@@ -1,4 +1,4 @@
-const handleResponseTime = (time: string) => {
+const handleResponseTime = (time: any) => {
   const now = new Date();
   const arrival = new Date(time);
   const diffTime = now.getTime() - arrival.getTime();
